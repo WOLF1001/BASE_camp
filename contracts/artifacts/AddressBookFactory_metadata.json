@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deploy",
+				"outputs": [
+					{
+						"internalType": "contract AddressBook",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AddressBookk.sol": "AddressBookFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/access/Ownable.sol": {
+			"keccak256": "0xff6d0bb2e285473e5311d9d3caacb525ae3538a80758c10649a4d61029b017bb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ed324d3920bb545059d66ab97d43e43ee85fd3bd52e03e401f020afb0b120f6",
+				"dweb:/ipfs/QmfEckWLmZkDDcoWrkEvMWhms66xwTLff9DDhegYpvHo1a"
+			]
+		},
+		"@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0x493033a8d1b176a037b2cc6a04dad01a5c157722049bbecf632ca876224dd4b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a708e8a5bdb1011c2c381c9a5cfd8a9a956d7d0a9dc1bd8bcdaf52f76ef2f12",
+				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
+			]
+		},
+		"contracts/AddressBook.sol": {
+			"keccak256": "0xa6a018b5dfae08d0ccb8464a3798e791e78cd104d5c6c1c540f7249bba8c5d31",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://78d362d8e719a1c866c8912eb0a704cc307be868e98968feee48eb2927657f6b",
+				"dweb:/ipfs/QmSJ4ATw8FUsdjTjbLHWH1Cj9quxmuJ8bTR499yiJprWjn"
+			]
+		},
+		"contracts/AddressBookk.sol": {
+			"keccak256": "0x02c6aa60934f8aebf86f9c304c1a48618574e9f38b4a6ef9aa19000aa8d43c79",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5e7a1179ef69d004077a50ee409a451cf71ccabbd1074e8b905b96291becaa63",
+				"dweb:/ipfs/QmYLE8dLrtnfUc7F1mfho9jRW59yC5gvcXSTiM28JkzsjS"
+			]
+		}
+	},
+	"version": 1
+}
